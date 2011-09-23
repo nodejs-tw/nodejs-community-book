@@ -25,9 +25,6 @@ JavaScript 語言本身支援 Lambda 的特性，因此一個匿名函式 (anony
 
 另一個 JavaScript 開發者必須掌握的語言特性稱為 Closure 。
 
-
-
-
 Callback這部份需要在查文件確認
 NodeJS 符合 CommonJS 的規範，使得 Callback 方式易於實現，也能夠讓更多同好基於 JavaScript 開發符合 NodeJS 的外掛模組 (Module)。
 
