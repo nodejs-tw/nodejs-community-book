@@ -21,3 +21,4 @@ NodeJS From Scratch
 
    README
    nodejs_intro
+   AUTHOR

@@ -151,21 +151,18 @@ JavaScript 是功能強大的物件導向程式語言，但是在 JavaScript 的
 瀏覽器的 JavaScript 與實現 CommonJS 規範的 NodeJS 有何不同呢？瀏覽器的 JavaScript 提供 XMLHttpRequest ，讓程式可以和網頁伺服器建立資料傳輸連線，但這通常只能適用於網站開發的需求，因為我們只能用 XMLHttpRequest 與網頁伺服器通訊，卻無法利用它建立其他類型如 Telnet / FTP / NTP 的伺服器通訊。如果我們想開發網路服務程式，例如 SMTP 電子郵件伺服器，就必須使用 Sockets 建立 TCP (某些服務則用 UDP) 監聽及連線，其他程式語言如 PHP 、 Java 、 Python 、 Perl 及 Ruby 等，在標準開發環境中皆有提供 Sockets API ，而瀏覽器的 JavaScript 基於安全及貼近網站設計需求的考量下，並未將 Sockets 列入標準函式庫之中。 CommonJS 的規範填補這種基礎函式庫功能的空缺，遵循 CommonJS 規範的 NodeJS 可以直接使用 Sockets API 建立各種網路服務程式。
 
 JavaScript 語言本身支援 Lambda 的特性，因此一個匿名函式 (anonymous function) 可以被儲存成一個變數，並當作參數傳遞給另一個函式。
-\begin{quote}
-\begin{description}
-\item[{var proc1 = function(op, x) \{}] \leavevmode
-return op(x);
 
-\end{description}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kd}{var} \PYG{n+nx}{proc1} \PYG{o}{=} \PYG{k+kd}{function}\PYG{p}{(}\PYG{n+nx}{op}\PYG{p}{,} \PYG{n+nx}{x}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+    \PYG{k}{return} \PYG{n+nx}{op}\PYG{p}{(}\PYG{n+nx}{x}\PYG{p}{)}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
 
-\}
+\PYG{k+kd}{var} \PYG{n+nx}{op1} \PYG{o}{=} \PYG{k+kd}{function}\PYG{p}{(}\PYG{n+nx}{x}\PYG{p}{)} \PYG{p}{\PYGZob{}} \PYG{k}{return} \PYG{n+nx}{x}\PYG{o}{+}\PYG{l+m+mi}{1}\PYG{p}{;} \PYG{p}{\PYGZcb{}}
+\PYG{k+kd}{var} \PYG{n+nx}{op2} \PYG{o}{=} \PYG{k+kd}{function}\PYG{p}{(}\PYG{n+nx}{x}\PYG{p}{)} \PYG{p}{\PYGZob{}} \PYG{k}{return} \PYG{n+nx}{x}\PYG{o}{*}\PYG{n+nx}{x}\PYG{p}{;} \PYG{p}{\PYGZcb{}}
 
-var op1 = function(x) \{ return x+1; \}
-var op2 = function(x) \{ return x*x; \}
-
-proc1(op1, 3);  // result is 4
-proc1(op2, 5);  // result is 25
-\end{quote}
+\PYG{n+nx}{proc1}\PYG{p}{(}\PYG{n+nx}{op1}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{p}{)}\PYG{p}{;}  \PYG{c+c1}{// result is 4}
+\PYG{n+nx}{proc1}\PYG{p}{(}\PYG{n+nx}{op2}\PYG{p}{,} \PYG{l+m+mi}{5}\PYG{p}{)}\PYG{p}{;}  \PYG{c+c1}{// result is 25}
+\end{Verbatim}
 
 另一個 JavaScript 開發者必須掌握的語言特性稱為 Closure 。
 
@@ -185,6 +182,17 @@ NodeJS 官方網站
 NodeJS 官方部落格
 NodeJS github
 NodeJS 中文社群
+
+
+\chapter{共同作者名冊}
+\label{AUTHOR::doc}\label{AUTHOR:id1}
+依照名字筆劃次序排列
+
+Clonn
+
+Hsu Ping Feng
+
+Lyhcode
 
 
 

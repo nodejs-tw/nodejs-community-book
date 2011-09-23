@@ -11,6 +11,8 @@ JavaScript 是功能強大的物件導向程式語言，但是在 JavaScript 的
 
 JavaScript 語言本身支援 Lambda 的特性，因此一個匿名函式 (anonymous function) 可以被儲存成一個變數，並當作參數傳遞給另一個函式。
 
+.. code-block:: javascript
+
     var proc1 = function(op, x) {
         return op(x);
     }
