@@ -2,6 +2,10 @@
    https://github.com/nodejs-tw/nodejs-from-scratch
    @project: NodeJSFromScratch
    @copyright: Creative Commons
+   @author: NodeJS Taiwan <http://nodejs.tw/>
+   @location: https://github.com/nodejs-tw/nodejs-from-scratch
+   @category: computer
+   @keywords: programming, web development
    @version: 1.0
    @release: 1.0
    @epub_basename: NodeJSFromScratch
