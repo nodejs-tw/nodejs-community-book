@@ -1,5 +1,6 @@
-BookTemplate for Continuous Publishing
-======================================
+NodeJS Taiwan 開源電子書計畫
+=============================
 
-Take a look at cook folders.
+這份電子書是由 NodeJS Taiwan 開發社群共同製作
 
+https://github.com/nodejs-tw/nodejs-from-scratch
