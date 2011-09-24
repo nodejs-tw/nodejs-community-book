@@ -9,6 +9,9 @@ https://github.com/nodejs-tw/nodejs-from-scratch
 您可以利用 Google Doc Viewer 預覽本電子書最新版：
 http://goo.gl/Y7nSh
 
+使用 ContPub 服務打包：
+http://contpub.org/
+
 如何加入 NodeJS Taiwan 開源書寫計畫？
 ----------------------------------
 
