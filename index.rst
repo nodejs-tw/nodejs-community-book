@@ -25,4 +25,5 @@ NodeJS From Scratch
 
    README
    nodejs_intro
+   nodejs_hello
    AUTHOR
