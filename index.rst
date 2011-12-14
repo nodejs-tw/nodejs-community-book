@@ -20,6 +20,7 @@ NodeJS 中文開發指南
 .. toctree::
    :maxdepth: 3
 
+   LICENSE
    README
    nodejs_intro
    nodejs_javascript

@@ -21,26 +21,22 @@ http://contpub.org/read/NodeJSFromScratch
 請加入 NodeJS Taiwan 的 Facebook 專頁，
 並留言與社群成員取得聯繫。
 
-GitHub 專案網址是：
-https://github.com/nodejs-tw/nodejs-from-scratch
+本書採用 Git 版本控制系統維護原始碼，
+目前使用 GitHub 提供的服務管理開源專案，
+其 Git Repository 網址是：
 
-當您成為共筆作者，
-可以使用 Git 版本控制系統參與協作。
+* https://github.com/nodejs-tw/nodejs-from-scratch
 
-授權方式
-========
+使用 Git 工具，
+任何人都可以 Clone 或 Fork 本書的原始碼，
+並利用 Git 的 Pull Request 功能，
+將您增加或修改的內容加入。
+但為了維護最終發行版本的品質，
+社群維護人員保留決定是否採用（接受 Pull Request）的權力。
 
-所有電子書內容提交 GitHub nodejs-tw 彙整後，
-即同意其內容為 NodeJS Taiwan 開發社群共有，
-所有共同作者願意無條件免費公開、分享，
-並接受持續修改、再製與發佈。
-
-無論您以任何方法取得本書內容，
-請依以下 **創用CC授權條款** 複製、散布或修改著作。
-
-**姓名標示─非商業性─相同方式分享**
-
-本授權條款允許使用者重製、散布、傳輸以及修改著作，但不得為商業目的之使用。若使用者修改該著作時，僅得依本授權條款或與本授權條款類似者來散布該衍生作品。使用時必須按照著作人指定的方式表彰其姓名。
+當作者把內容提交給 NodeJS Taiwan 社群彙整後，
+即無條件同意其內容為社群共有，
+並由社群負責發行、出版事宜。
 
 取得本書原始碼
 ==============
