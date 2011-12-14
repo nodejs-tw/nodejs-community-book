@@ -8,7 +8,7 @@
    @keywords: programming, web development
    @language: zh_TW
    @basename: NodeJSFromScratch
-   @latex_paper_size: b5
+   @latex_paper_size: a4
    @latex_font_size: 12pt
    @latex_logo: img/nodejs-light.eps
    @epub_theme: epub_simple
@@ -22,6 +22,8 @@ NodeJS 中文開發指南
 
    README
    nodejs_intro
-   nodejs_hello
    nodejs_javascript
+   nodejs_install
+   nodejs_hello
+   nodejs_npm
    AUTHOR
